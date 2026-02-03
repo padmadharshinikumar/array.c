@@ -5,8 +5,9 @@ int main() {
     scanf("%d", &n);
 
     int a[n];
-    for(int i=0;i<n;i++) scanf("%d",&a[i]);
-
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
     scanf("%d",&sum);
 
     for(int i=0;i<n;i++){
@@ -20,3 +21,4 @@ int main() {
     printf("No pair");
     return 0;
 }
+
